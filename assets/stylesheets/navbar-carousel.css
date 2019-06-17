@@ -1,0 +1,22 @@
+.navbar {
+ z-index:9;
+}
+#fullCarousel{
+  position:absolute;
+  width:100%;
+  top:0;
+}
+
+@media all and (max-width: 991px) {
+  .navbar-brand img {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .navbar-brand img {
+    width: 50%;
+    height: auto;
+  }
+}

@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'Russian Dollmaker';
+  src: url('../fonts/Russian Dollmaker.otf') format('embedded-opentype'),
+    url('../fonts/Russian Dollmaker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Russian Dollmaker Italic';
+  src: url('../fonts/Russian Dollmaker Italic.otf') format('embedded-opentype'),
+    url('../fonts/Russian Dollmaker Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.logo img {
+  width: 22.9vh;
+  height: 11.5vh;
+}
+
+.navbar-collapse {
+  text-align: justify;  /* For Edge */
+  text-align-last: right;
+}
+
+@media all and (max-width: 991px) {
+  .logo img {
+    width: 10.9vh;
+    height: 5.5vh;
+  }
+
+  .card-size {
+    height: 30.78947368421052vh;
+    width: 100%;
+  }
+
+  .card-size img {
+    max-height: 30.78947368421052vh;
+  }
+
+  .card-specialties-size {
+    height: 20.78947368421052vh;
+    width: 100%;
+  }
+
+  .card-specialties-size img {
+    max-height: 20.78947368421052vh;
+  }
+
+  .nav-links {
+    font-size:8vw;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .mt-7 {
+    margin-top: 20vw;
+  }
+
+  .mt-6 {
+    margin-top: 15vh !important;
+  }
+
+  .instagram {
+    width: 20%;
+    float: left;
+  }
+
+  .instagram-size img {
+    height: 15vh;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .navbar-brand img {
+    width: 15%;
+    height: auto;
+    margin-left: -10px;
+  }
+
+  .instagram {
+    width: 20%;
+    float: left;
+  }
+
+  .instagram-size img {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .nav-links {
+    font-size:4vw;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .mt-7 {
+    margin-top: 15vw;
+  }
+
+  .mt-6 {
+    margin-top: 60vh !important;
+  }
+
+  .card-size {
+    height: 100.78947368421052vh;
+    width: 100%;
+  }
+
+  .card-size img {
+    max-height: 100.78947368421052vh;
+  }
+
+  .card-specialties-size {
+    height: 55.78947368421052vh;
+    width: 100%;
+  }
+
+  .card-specialties-size img {
+    max-height: 55.78947368421052vh;
+  }
+}
+
+@media all and (min-width: 1401px) {
+  .mt-6 {
+    margin-top: 70vh !important;
+  }
+
+  .card-size {
+    height: 75.78947368421052vh;
+    width: 100%;
+  }
+
+  .card-size img {
+    max-height: 75.78947368421052vh;
+  }
+
+  .instagram {
+    width: 20%;
+    float: left;
+  }
+
+  .nav-links {
+    font-size:2vw;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .mt-7 {
+    margin-top: 10vw;
+  }
+
+  .carte-img-margin {
+    margin-top: -18vh !important;
+  }
+}
+
+.carousel-item {
+  max-height: 75.78947368421052vh;
+}
+.carousel-item img{
+  max-height: 75.78947368421052vh;
+}
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-container img {
+  max-width: 100%;
+  max-height: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.bottom-center {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center-1 {
+  position: absolute;
+  bottom: 4%;
+  left: 44.5%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center-2 {
+  position: absolute;
+  bottom: 4%;
+  left: 23.5%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center-3 {
+  position: absolute;
+  bottom: 4%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center-4 {
+  position: absolute;
+  bottom: 4%;
+  left: 41.5%;
+  transform: translate(-50%, -50%);
+}
+
+.russian-dollmaker {
+  font-family: 'Russian Dollmaker';
+}
+
+.russian-dollmaker-italic {
+  font-family: 'Russian Dollmaker Italic';
+}
+
+.ifood {
+   color: #e51e1c !important;
+}
+
+.footer-links a {
+  font-size: 3vw;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #fdc316 !important;
+}
+
+.nav-links a:hover {
+  color: #fdc316 !important;
+}
+
+.bg-black {
+  background-color: #121212;
+}
+
+.chef-carte {
+  font-size: 10vw;
+}
+
+.instagram-font-size {
+  font-size: 8vw;
+}
+
+.hashtag-molotov-bbq {
+  font-size: 5vw;
+  color: #fdc316 !important;
+}
+
+.instagram-topic-margin {
+  margin-top: -10vh !important;
+}

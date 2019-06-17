@@ -1,0 +1,37 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  direction:ltr;
+  text-align:justify;
+}
+
+@media all and (max-width: 991px) {
+  .about img {
+    max-height: 25.78947368421052vh;
+  }
+
+  .about-titles {
+    font-size: 6vw;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .about img {
+    max-height: 75.78947368421052vh;
+  }
+
+  .about-titles {
+    font-size: 5vw;
+  }
+}
+
+@media all and (min-width: 1401px) {
+  .about img {
+    max-height: 75.78947368421052vh;
+  }
+
+  .about-titles {
+    font-size: 4vw;
+  }
+}
